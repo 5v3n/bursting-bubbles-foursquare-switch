@@ -6,9 +6,11 @@ require 'foursquare2'
 require_relative 'credentials.rb'
 
 class RatPackServer < Sinatra::Application
-  VENUE_ID        = '50bb38eb45b068a260dfa032'
-  CLIENT_ID       ||= ENV['FOURSQAURE_CLIENT_ID']
-  CLIENT_SECRET   ||= ENV['FOURSQAURE_CLIENT_SECRET']
+  MAKING_THINGS_HAPPEN  = '50bb38eb45b068a260dfa032'
+  K_AND_K_LOGGIA        = '502665f2e4b0fe42319745ed'
+  VENUE_ID              = K_AND_K_LOGGIA
+  CLIENT_ID             ||= ENV['FOURSQAURE_CLIENT_ID']
+  CLIENT_SECRET         ||= ENV['FOURSQAURE_CLIENT_SECRET']
 
 
   configure()             { set :activated, 0 }
