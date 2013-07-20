@@ -36,6 +36,6 @@ private
   end
   def render_status_response
     settings.activated = people_count_changed?
-    {activated: settings.activated, people_count: settings.people_count}.to_json
+    {activated: 1, people_count: settings.people_count}.to_json
   end
 end
