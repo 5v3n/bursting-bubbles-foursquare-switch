@@ -18,7 +18,7 @@ GEM
     hashie (2.0.5)
     kgio (2.8.0)
     multipart-post (1.2.0)
-    rack (1.5.2)
+    rack (1.6.12)
     rack-protection (1.5.0)
       rack
     raindrops (0.11.0)
